@@ -1,6 +1,4 @@
 """
-Create a file in your repository called portfolio.py by using VSCode from GitHub Desktop, as we did a few weeks ago.
-
 Within it, define a new class called Portfolio which:
 
     has a method called buy, which adds a new stock to the portfolio, taking 3 arguments
@@ -17,11 +15,12 @@ Consider that to implement the cost method, you'll need to be storing the purcha
 
 Commit this file to your repository and push it to GitHub using GitHub Desktop, with a suitable commit message.
 """
+
 class Portfolio:
     def __init__(self):
         self._stocks = []
     def buy(self, stock_name, stock_quantity, stock_price):
-        self._stock.append(name, shares, price)
+        self._stocks.append(stock_name, stock_quantity, stock_price)
     def cost(self):
         return sum(
             stock_quantity * stock_price for stock_name, stock_quantity, stock_price in self._stocks
