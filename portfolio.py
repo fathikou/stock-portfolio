@@ -17,7 +17,7 @@ Consider that to implement the cost method, you'll need to be storing the purcha
 
 Commit this file to your repository and push it to GitHub using GitHub Desktop, with a suitable commit message.
 """
-class Porfolio:
+class Portfolio:
     def __init__(self):
         self._stocks = []
     def buy(self, stock_name, stock_quantity, stock_price):
