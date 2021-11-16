@@ -1,5 +1,5 @@
 
-class Porfolio:
+class Portfolio:
     def __init__(self):
         self._stocks = []
     def buy(self, stock_name, stock_quantity, stock_price):
