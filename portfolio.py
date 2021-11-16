@@ -26,3 +26,6 @@ class Porfolio:
         return sum(
             stock_quantity * stock_price for stock_name, stock_quantity, stock_price in self._stocks
         )
+
+    class kourosh:
+        pass
